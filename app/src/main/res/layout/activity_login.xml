@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="65dp"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:singleLine="true"
+        android:padding="10dp"
+        android:includeFontPadding="false"
+        android:text="Login 정보 입력" />
+
+    <EditText
+        android:id="@+id/et_login_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:singleLine="true"
+        android:padding="10dp"
+        android:includeFontPadding="false"
+        android:textCursorDrawable="@null"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/et_login_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:includeFontPadding="false"
+        android:textCursorDrawable="@null"
+
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/et_app_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:includeFontPadding="false"
+        android:textCursorDrawable="@null"
+
+        android:hint="APP ID" />
+
+    <EditText
+        android:id="@+id/et_app_secret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:includeFontPadding="false"
+        android:textCursorDrawable="@null"
+
+        android:hint="SECRET" />
+
+    <ImageView
+        android:id="@+id/iv_login_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bg_bt_login_sel"
+        android:onClick=""/>
+</LinearLayout>
+
+

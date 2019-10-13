@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IoTMaker AndroidSDK Test</string>
+    <string name="login_success">Login in Success!!</string>
+    <string name="login_id_empty">ID를 입력해주세요</string>
+    <string name="login_pw_empty">비밀번호를 입력해주세요</string>
+    <string name="login_app_id_empty">APP ID를 입력해주세요</string>
+    <string name="login_secret_empty">APP Secret를 입력해주세요</string>
+    <string name="period_empty">조회 기간을 입력해주세요</string>
+    <string name="count_empty">반환 개수 입력해주세요</string>
+
+    <string name="common_wait">잠시만 기다려주세요</string>
+    <string name="login_fail">로그인 실패 \n</string>
+</resources>
